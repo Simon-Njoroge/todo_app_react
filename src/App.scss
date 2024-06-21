@@ -1,0 +1,99 @@
+*body{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  background-color: antiquewhite;
+  margin: 5% 25%;
+  background-image: url('./images/bg-desktop-light.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 250px;
+}
+.whole{
+  max-width: 400px;
+}
+.todo{
+  display: flex;
+  justify-content: space-between;
+}
+.todo img{
+  position: relative;
+  top: 30px;
+  width: 20px;
+  cursor: pointer;
+}
+.entire{
+  background-color: white;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.add{
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 5px;
+  display: flex;
+}
+.add input:nth-child(2){
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.Dta{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container{
+  margin-top: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.container button{
+ align-content: center;
+ margin-bottom: 10px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.footer a{
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.back{
+  background-color: black;
+  background-image: url('./images/bg-desktop-dark.jpg');
+  cursor: pointer;
+}
+.back .add{
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px 5px;
+  display: flex;
+  color: white;
+
+}
+.back .todo h1{
+  color: white;
+}
+
+.back .entire{
+  margin-top: 20px;
+  background-color: black;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+}
+.back .add input:nth-child(2){
+  background-color: black;
+}
+@media only screen and (max-width:768px){
+
+}
